@@ -1,3 +1,4 @@
+repeat wait() until game:IsLoaded()
 syn.queue_on_teleport('loadstring(game:HttpGet("https://raw.githubusercontent.com/tresks/Vibe-Crash/main/main.lua"))()')
 if isfile("webhookfortresk.txt") then
     _G.advert = true
