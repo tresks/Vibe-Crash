@@ -31,7 +31,7 @@ while task.wait() do -- poppy is so hot ;)
                 v.Handle.Velocity = Vector3.new(math.huge, math.huge, math.huge)
                 v.Parent = game.Players.LocalPlayer.Character
             end
-        end
+        end 
         if trolling >= 150 then
             _G.sexycrash = false
             for i,v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
