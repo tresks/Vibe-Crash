@@ -1,4 +1,4 @@
-repeat wait(.3) until game:IsLoaded()
+repeat wait() until game:IsLoaded()
 syn.queue_on_teleport('loadstring(game:HttpGet("https://raw.githubusercontent.com/tresks/Vibe-Crash/main/poop.lua"))()')
 if isfile("webhookfortresk.txt") then
     _G.advert = true
@@ -8,6 +8,7 @@ end
 trolling = 0
 while task.wait() do -- poppy is so hot ;)
     if _G.advert then
+        wait(.5)
         for i = 1,10 do
             game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("This server is being crashed by the anti dater crew keep crying.", "All")
             game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("This server is being crashed by the anti dater crew keep crying.", "All")
