@@ -8,9 +8,11 @@ end
 trolling = 0
 while task.wait() do -- poppy is so hot ;)
     if _G.advert then
-        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("This server is being crashed by the anti dater crew keep crying.", "All")
-        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("This server is being crashed by the anti dater crew keep crying.", "All")
-        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("This server is being crashed by the anti dater crew keep crying.", "All")
+        for i = 1,10 do
+            game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("This server is being crashed by the anti dater crew keep crying.", "All")
+            game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("This server is being crashed by the anti dater crew keep crying.", "All")
+            game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("This server is being crashed by the anti dater crew keep crying.", "All")
+        end
     end
     if _G.sexycrash then
         _G.advert = false
