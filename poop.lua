@@ -11,8 +11,6 @@ while task.wait() do -- poppy is so hot ;)
         wait(.5)
         for i = 1,5 do
             game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("This server is being crashed by the anti dater crew keep crying.", "All")
-            game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("This server is being crashed by the anti dater crew keep crying.", "All")
-            game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("This server is being crashed by the anti dater crew keep crying.", "All")
         end
     end
     if _G.sexycrash then
