@@ -9,7 +9,7 @@ trolling = 0
 while task.wait() do -- poppy is so hot ;)
     if _G.advert then
         wait(.5)
-        for i = 1,10 do
+        for i = 1,5 do
             game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("This server is being crashed by the anti dater crew keep crying.", "All")
             game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("This server is being crashed by the anti dater crew keep crying.", "All")
             game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("This server is being crashed by the anti dater crew keep crying.", "All")
