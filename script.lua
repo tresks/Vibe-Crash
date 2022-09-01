@@ -6,7 +6,6 @@ if isfile("webhookfortresk.txt") then
 end
 
 trolling = 0
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1000,1000,1000)
 while task.wait() do -- poppy is so hot ;)
     if _G.advert then
         wait(.5)
@@ -37,6 +36,7 @@ while task.wait() do -- poppy is so hot ;)
         end 
         if trolling >= 150 then
             _G.sexycrash = false
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1000,1000,1000)
             for i,v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
                 if v:IsA("BasePart") or v:IsA("Accessory") then
                     v:Destroy()
